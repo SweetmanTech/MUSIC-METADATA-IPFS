@@ -1,5 +1,5 @@
 {
-	"name": "test-music-metadata-ipfs",
+	"name": "music-metadata-ipfs",
 	"version": "1.0.2",
 	"description": "metadata for music nfts with easy IPFS hosting.",
 	"main": "dist/index.js",
