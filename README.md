@@ -4,9 +4,13 @@ Standard for musicians pioneered by [Catalog](https://beta.catalog.works/) & [Mi
 
 Compatible with contracts created by:
 
-- Catalog
-- Sound.xyz
-- Manifold
+- [Catalog](https://beta.catalog.works/)
+- [Sound.xyz](https://sound.xyz/)
+- [Manifold](https://studio.manifold.xyz/)
+
+```diff
+- WARNING: this code is unaudited
+```
 
 ### Get Started
 
@@ -14,20 +18,19 @@ To add music NFT metadata to your next music NFT drop, just
 
 ### install with NPM
 
-- npm - `npm i music-metadata-ipfs`
+`npm i music-metadata-ipfs`
 
 ### or install with Yarn
 
-- yarn - `yarn add music-metadata-ipfs`
+`yarn add music-metadata-ipfs`
 
 ### Configure your API key
 
-- get an API key from [nft.storage](https://nft.storage/)
-- set your `.env` file with `NEXT_PUBLIC_NFT_STORAGE_API_KEY=YOUR_API_KEY`
+- set your `.env.local` file with `NEXT_PUBLIC_NFT_STORAGE_API_KEY=YOUR_API_KEY`
+- get a free API key from [nft.storage](https://nft.storage/)
 
 ### Usage
 
-````js
 1. `import { MusicMetadataProvider } from 'music-metadata-ipfs'`
 1. wrap your Music Metadata Form in a `<MusicMetadataProvider>`.
 1. `import { useMusicMetadata } from 'music-metadata-ipfs'`
@@ -35,22 +38,6 @@ To add music NFT metadata to your next music NFT drop, just
 1. modify music metadata: `onChange={(e) => setMetadata({ ...metadata, image: e })}`
 1. upload your metadata to IPFS: `const ipfs = await createIpfsMetadata()`
 1. take your music metadata to any ERC721 token contract (Catalog, Manifold, Zora, Sound, etc.)
-
-- 73 Music NFT attributes stored on chain in your music nft metadata.
-  <img width="449" alt="Screen Shot 2022-07-30 at 8 59 39 PM" src="https://user-images.githubusercontent.com/23249402/182004014-a8e7fb11-92b5-44d1-a538-0682611d81c7.png">
-
-```diff
-- WARNING: this code is unaudited
-````
-
-### You Newest Tool for Music NFTs (decentralized on IPFS)
-
-- [Your Music NFT Smart Contract (ERC721)](https://mumbai.polygonscan.com/address/0xb7CF570F9a816CEB90b780C324ECcdb6Fa6C722F#code).
-- [Your Music NFT in OpenSea](https://testnets.opensea.io/assets/mumbai/0xb7CF570F9a816CEB90b780C324ECcdb6Fa6C722F/1)
-- Works out of the box.
-- 100% free CC0 technology (MIT License - use this w/o crediting me).
-
-<img width="1440" alt="Screen Shot 2022-07-30 at 9 00 55 PM" src="https://user-images.githubusercontent.com/23249402/182004025-56ee0c37-0502-4677-9da4-b8d0217441a8.png">
 
 ### Example Music NFT:
 
@@ -69,13 +56,21 @@ const MusicNFTMinter = () => {
 export default MusicNFTMinter
 ```
 
+- 73 Music NFT attributes stored on chain in your music nft metadata.
+  <img width="449" alt="Screen Shot 2022-07-30 at 8 59 39 PM" src="https://user-images.githubusercontent.com/23249402/182004014-a8e7fb11-92b5-44d1-a538-0682611d81c7.png">
+
+### You Newest Tool for Music NFTs (decentralized on IPFS)
+
+- [Your Music NFT Smart Contract (ERC721)](https://mumbai.polygonscan.com/address/0xb7CF570F9a816CEB90b780C324ECcdb6Fa6C722F#code).
+- [Your Music NFT in OpenSea](https://testnets.opensea.io/assets/mumbai/0xb7CF570F9a816CEB90b780C324ECcdb6Fa6C722F/1)
+- Works out of the box.
+- 100% free CC0 technology (MIT License - use this w/o crediting me).
+
+<img width="1440" alt="Screen Shot 2022-07-30 at 9 00 55 PM" src="https://user-images.githubusercontent.com/23249402/182004025-56ee0c37-0502-4677-9da4-b8d0217441a8.png">
+
 ### How to deploy
 
-```
-
-- yarn && yarn publish
-
-```
+- `yarn build && npm publish`
 
 ### Credits:
 
