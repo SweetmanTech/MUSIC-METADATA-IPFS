@@ -4,7 +4,7 @@ import { NFTStorage } from "nft.storage";
 export const MusicMetadataContext = React.createContext({});
 
 export const MusicMetadataProvider = ({ children }) => {
-  const [metadata, setMetadata] = useState({});
+  const [metadata, setMetadata] = useState({ version: "0.1" });
 
   const createIpfsMetadata = async () => {
     const client = new NFTStorage({
