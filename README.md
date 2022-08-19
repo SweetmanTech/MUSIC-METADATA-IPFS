@@ -66,6 +66,10 @@ uint256 songId;
 
 }
 
+### How to deploy
+
+- yarn && yarn publish
+
 ```
 
 ### Credits:
