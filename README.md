@@ -20,6 +20,11 @@ To add music NFT metadata to your next music NFT drop, just
 
 - yarn - `yarn add music-metadata-ipfs`
 
+### Configure your API key
+
+- get an API key from [nft.storage](https://nft.storage/)
+- set your `.env` file with `NEXT_PUBLIC_NFT_STORAGE_API_KEY=YOUR_API_KEY`
+
 ### Usage
 
 ````js
