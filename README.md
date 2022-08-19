@@ -68,9 +68,7 @@ uint256 songId;
 
 ### How to deploy
 
-- yarn && yarn build
-- check dist folder for built code
-- npm publish
+- yarn && yarn publish
 
 ```
 
