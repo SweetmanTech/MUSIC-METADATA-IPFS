@@ -1,0 +1,77 @@
+{
+    "name": "EXTRA",
+    "description": "TODO",
+    "image": "",
+    "version": "0.1",
+    "title": "EXTRA",
+    "artist": "Jackintheway",
+    "duration": 0,
+    "mimeType": "audio/wav",
+    "losslessAudio": "ipfs://bafybeihjb2yfv2iicb72coibvi4mvpdkwin4zbnff7nivkwnma5sjvtvue",
+    "trackNumber": 1,
+    "genre": "TODO",
+    "tags": [
+      "Jackintheway",
+      "EXTRA",
+      "WAYSPACE",
+      "sweetman.eth",
+      "music nft"
+    ],
+    "bpm": 0,
+    "key": "TODO",
+    "license": "TODO",
+    "locationCreated": "TODO",
+    "external_url": "TODO",
+    "animation_url": "ipfs://bafybeihjb2yfv2iicb72coibvi4mvpdkwin4zbnff7nivkwnma5sjvtvue",
+    "project": {
+      "title": "WAYSPACE",
+      "artwork": {
+        "uri": "TODO",
+        "mimeType": "TODO",
+        "nft": ""
+      },
+      "description": "TODO",
+      "type": "Album",
+      "originalReleaseDate": "TODO",
+      "recordLabel": "TODO",
+      "publisher": "TODO",
+      "upc": "TODO"
+    },
+    "isrc": "TODO",
+    "artwork": {
+      "uri": "ipfs://bafybeigvrgcodbumzjqoma7zjdzrbmwmd3v42nyb3k2p4vnycvzm4au2ua",
+      "mimeType": "image/png",
+      "nft": ""
+    },
+    "lyrics": {
+      "text": "TODO",
+      "nft": ""
+    },
+    "visualizer": {
+      "uri": "TODO",
+      "mimeType": "TODO",
+      "nft": ""
+    },
+    "originalReleaseDate": "TODO",
+    "recordLabel": "TODO",
+    "publisher": "TODO",
+    "credits": [
+      {
+        "name": "Jackintheway",
+        "collaboratorType": "creator"
+      },
+      {
+        "name": "sweetman.eth",
+        "collaboratorType": "smart contract engineer"
+      }
+    ],
+    "attributes": {
+      "artist": "Jackintheway",
+      "project": "WAYSPACE",
+      "bpm": 0,
+      "key": "TODO",
+      "genre": "TODO",
+      "recordLabel": "TODO",
+      "license": "TODO"
+    }
+  }
