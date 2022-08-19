@@ -1,0 +1,31 @@
+{
+  "name": "music-metadata-ipfs",
+  "version": "1.0.1",
+  "description": "metadata for music nfts with easy IPFS hosting.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetmanTech/MUSIC-METADATA-IPFS.git"
+  },
+  "keywords": [
+    "music",
+    "metadata",
+    "npf",
+    "ipfs",
+    "nft.storage",
+    "musicft"
+  ],
+  "author": "Sweets the Engineer <sweetmanTech@gmail.com> (https://github.com/SweetmanTech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SweetmanTech/MUSIC-METADATA-IPFS/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "homepage": "https://github.com/SweetmanTech/MUSIC-METADATA-IPFS#readme"
+}
