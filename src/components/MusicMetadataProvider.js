@@ -5,13 +5,14 @@ export const MusicMetadataContext = React.createContext({});
 
 export const MusicMetadataProvider = ({ children }) => {
   const [metadata, setMetadata] = useState({ version: "0.1" });
+  const [contractMetadata, setContractMetadata] = useState({});
 
-  const createIpfsMetadata = async () => {
+  const createIpfsMetadata = async (overrideMetadata) => {
     const client = new NFTStorage({
       token: process.env.NEXT_PUBLIC_NFT_STORAGE_API_KEY,
     });
     const ipfs = await client
-      .store(metadata)
+      .store(overrideMetadata || metadata)
       .then((response) => response)
       .catch((error) => {
         console.error(error);
@@ -22,7 +23,13 @@ export const MusicMetadataProvider = ({ children }) => {
 
   return (
     <MusicMetadataContext.Provider
-      value={{ metadata, setMetadata, createIpfsMetadata }}
+      value={{
+        metadata,
+        setMetadata,
+        createIpfsMetadata,
+        contractMetadata,
+        setContractMetadata,
+      }}
     >
       {children}
     </MusicMetadataContext.Provider>

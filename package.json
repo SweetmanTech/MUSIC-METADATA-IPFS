@@ -1,6 +1,6 @@
 {
 	"name": "music-metadata-ipfs",
-	"version": "1.0.20",
+	"version": "1.0.21",
 	"description": "metadata for music nfts with easy IPFS hosting.",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
@@ -28,7 +28,7 @@
 		"components",
 		"ui"
 	],
-	"author": "Sweets the Engineer <sweetmanTech@gmail.com> (https://github.com/SweetmanTech)",
+	"author": "Sweets the Engineer <sweetmantech@gmail.com> (https://github.com/SweetmanTech)",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/SweetmanTech/MUSIC-METADATA-IPFS/issues"
